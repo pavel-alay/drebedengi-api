@@ -71,10 +71,10 @@ public class Account extends ObjectProperties {
     }
 
     public String toHumanReadableString() {
-        if (StringUtils.isEmpty(getDescription())) {
+        if (StringUtils.isBlank(getDescription())) {
             return String.format("%d: %s", getId(), getName());
         } else {
-            return String.format("%d: %s (%s)", getId(), getName(), getDescription());
+            return String.format("%d: %s (%s)", getId(), getName(), getDescription().replace("\n", " "));
         }
     }
 }
