@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="urn:ddengi"
+                   xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <ns1:getCurrencyListResponse>
+            <getCurrencyListReturn SOAP-ENC:arrayType="ns2:Map[4]" xsi:type="SOAP-ENC:Array">
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">18</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">USD</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">course</key>
+                        <value xsi:type="xsd:string">62.2018</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">code</key>
+                        <value xsi:type="xsd:string">USD</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_default</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autoupdate</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">19</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">EUR</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">course</key>
+                        <value xsi:type="xsd:string">69.4484</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">code</key>
+                        <value xsi:type="xsd:string">EUR</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_default</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autoupdate</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">руб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">course</key>
+                        <value xsi:type="xsd:string">1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">code</key>
+                        <value xsi:type="xsd:string">RUR</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_default</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autoupdate</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">20</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">грн</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">course</key>
+                        <value xsi:type="xsd:string">2.63614</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">code</key>
+                        <value xsi:type="xsd:string">UAH</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_default</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autoupdate</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+            </getCurrencyListReturn>
+        </ns1:getCurrencyListResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

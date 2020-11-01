@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:ddengi" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SOAP-ENV:Body>
+        <ns1:getPlaceListResponse>
+            <getPlaceListReturn SOAP-ENC:arrayType="ns2:Map[7]" xsi:type="SOAP-ENC:Array">
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40030</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">4</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Сбербанк.</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40030</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">purse_of_nuid</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">icon_id</key>
+                        <value xsi:type="xsd:string">16</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autohide</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40032</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">4</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Кошелёк папы</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40032</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">purse_of_nuid</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">icon_id</key>
+                        <value xsi:type="xsd:string">1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autohide</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40034</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">4</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Сейф</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40034</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">purse_of_nuid</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">icon_id</key>
+                        <value xsi:type="xsd:string">6</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autohide</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40040</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">4</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Газпромбанк</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40040</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">purse_of_nuid</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">icon_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autohide</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">41439</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">4</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">З.п. карта</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">41439</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">purse_of_nuid</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">icon_id</key>
+                        <value xsi:type="xsd:string">20</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autohide</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">3628000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">4</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">На квартиру</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">3628000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">purse_of_nuid</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">icon_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autohide</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">15094975</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">4</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Хозяин</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">15094975</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">purse_of_nuid</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">icon_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_autohide</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                </item>
+            </getPlaceListReturn>
+        </ns1:getPlaceListResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

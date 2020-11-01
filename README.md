@@ -1,2 +1,2 @@
-# drebedengi-api
-Java API for https://www.drebedengi.ru/
+# drepedengi-api
+Java API for https://www.drebedengi.ru

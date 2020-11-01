@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:ddengi" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SOAP-ENV:Body>
+		<ns1:setRecordListResponse>
+			<setRecordListReturn SOAP-ENC:arrayType="ns2:Map[2]" xsi:type="SOAP-ENC:Array">
+				<item xsi:type="ns2:Map">
+					<item>
+						<key xsi:type="xsd:string">server_id</key>
+						<value xsi:type="xsd:string">135716230</value>
+					</item>
+					<item>
+						<key xsi:type="xsd:string">status</key>
+						<value xsi:type="xsd:string">inserted</value>
+					</item>
+					<item>
+						<key xsi:type="xsd:string">client_id</key>
+						<value xsi:type="xsd:int">1</value>
+					</item>
+				</item>
+				<item xsi:type="ns2:Map">
+					<item>
+						<key xsi:type="xsd:string">server_id</key>
+						<value xsi:type="xsd:string">135716231</value>
+					</item>
+					<item>
+						<key xsi:type="xsd:string">status</key>
+						<value xsi:type="xsd:string">inserted</value>
+					</item>
+					<item>
+						<key xsi:type="xsd:string">client_id</key>
+						<value xsi:type="xsd:int">2</value>
+					</item>
+				</item>
+			</setRecordListReturn>
+		</ns1:setRecordListResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

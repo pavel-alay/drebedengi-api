@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:ddengi" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SOAP-ENV:Body>
+        <ns1:getAccumListResponse>
+            <getAccumListReturn SOAP-ENC:arrayType="ns2:Map[12]" xsi:type="SOAP-ENC:Array">
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11779</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Квартира</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:type="xsd:string">250000000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">3628000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:18:38</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:type="xsd:string">2012-01-22 00:00:00</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:type="xsd:string">1425672000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:type="xsd:string">30</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:type="xsd:string">5500000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11779</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149935</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11828</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Ноутбук</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:type="xsd:string">2800000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:15:34</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11828</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149936</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11787</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Колбаса</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:09:12</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11787</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11788</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Сыр</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:09:18</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11788</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11789</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Масло</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:09:38</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string">Лучше &quot;доярушка&quot;, или &quot;анкор&quot;</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11789</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11791</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Молоко 3.2%</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:12:50</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11791</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11823</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Хлеб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:type="xsd:string">0</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:13:02</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11823</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11824</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Что-нибудь к чаю</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:type="xsd:string">0</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:13:24</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11824</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11825</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">рыба свежая</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:type="xsd:string">0</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:13:50</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11825</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11826</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Зубна паста</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:14:21</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11826</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149937</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11827</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Фотоаппарат</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:type="xsd:string">2300000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:14:42</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11827</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149936</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">11829</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Шкаф</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_need</key>
+                        <value xsi:type="xsd:string">1500000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum_currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">user_id</key>
+                        <value xsi:type="xsd:string">1000000000539</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_family</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">created</key>
+                        <value xsi:type="xsd:string">2012-01-22 21:17:53</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_from</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date_to</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">pay_period_sum</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">priority</key>
+                        <value xsi:type="xsd:string">11829</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_accum</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">order_id</key>
+                        <value xsi:type="xsd:string">149936</value>
+                    </item>
+                </item>
+            </getAccumListReturn>
+        </ns1:getAccumListResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

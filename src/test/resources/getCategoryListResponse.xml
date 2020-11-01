@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="urn:ddengi"
+                   xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <ns1:getCategoryListResponse>
+            <getCategoryListReturn SOAP-ENC:arrayType="ns2:Map[36]" xsi:type="SOAP-ENC:Array">
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">41061</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Без категории</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Другие траты</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Еда и продукты</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40005</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Одежда</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40005</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40012</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Медицина</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40012</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Дом</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40047</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Автомобиль</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40047</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40011</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Проезд</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40011</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40019</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Разовые траты</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40019</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40023</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Интернет</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40023</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40024</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Сотовая связь</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40024</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40025</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">ДР, праздники, проставления</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40025</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40002</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Фрукты, Овощи</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40002</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40003</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Другая еда</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40003</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40009</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Мясо, колбасы</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40009</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40010</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Обеды, перекусы</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40010</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40014</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Консервы</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40014</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40015</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Кчаю, Сладкое, хлеб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40015</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40016</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Молочное</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40016</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40018</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40001</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Спиртное</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40018</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40006</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40005</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Обувь</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40006</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40008</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40005</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Другая одежда</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40008</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40013</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40012</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Аптека</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40013</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40020</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40012</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Анализы</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40020</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40021</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40012</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Консультации</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40021</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40022</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40012</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Другая медицина</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40022</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40017</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Хозтовары</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40017</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40027</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Квартплата</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40027</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40028</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Коммунальн. платежи</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40028</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40029</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Ребенок</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40029</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40039</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Животные</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40039</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40555</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Родителям</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40555</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">41060</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40026</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Дача, участок</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">41060</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40046</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40047</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Другие авто. расходы</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40046</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40049</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40047</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Бензин</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40049</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">id</key>
+                        <value xsi:type="xsd:string">40050</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">40047</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_family_id</key>
+                        <value xsi:type="xsd:string">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">type</key>
+                        <value xsi:type="xsd:string">3</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">name</key>
+                        <value xsi:type="xsd:string">Запчасти</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_hidden</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40050</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:type="xsd:string"/>
+                    </item>
+                </item>
+            </getCategoryListReturn>
+        </ns1:getCategoryListResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

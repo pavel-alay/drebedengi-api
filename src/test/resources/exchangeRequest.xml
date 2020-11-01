@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+        xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ns1="urn:ddengi"
+        xmlns:ns2="http://xml.apache.org/xml-soap"
+        xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+        SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <ns1:setRecordList>
+            <apiId xsi:type="xsd:string">demo_api</apiId>
+            <login xsi:type="xsd:string">demo@example.com</login>
+            <pass xsi:type="xsd:string">demo</pass>
+            <list SOAP-ENC:arrayType="xsd:string[2]" xsi:type="SOAP-ENC:Array">
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:int">40034</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:int">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_object_id</key>
+                        <value xsi:type="xsd:int">40034</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:int">-20015</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">client_id</key>
+                        <value xsi:type="xsd:int">1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">operation_type</key>
+                        <value xsi:type="xsd:int">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">client_change_id</key>
+                        <value xsi:type="xsd:int">2</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string">auto exchange</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">operation_date</key>
+                        <value xsi:type="xsd:string">2020-01-18 18:33:24</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:int">40034</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:int">19</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">budget_object_id</key>
+                        <value xsi:type="xsd:int">40034</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:int">10011</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">client_id</key>
+                        <value xsi:type="xsd:int">2</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">operation_type</key>
+                        <value xsi:type="xsd:int">5</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">client_change_id</key>
+                        <value xsi:type="xsd:int">1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">comment</key>
+                        <value xsi:type="xsd:string">auto exchange</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">operation_date</key>
+                        <value xsi:type="xsd:string">2020-01-18 18:33:24</value>
+                    </item>
+                </item>
+            </list>
+        </ns1:setRecordList>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

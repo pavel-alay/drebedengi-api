@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:ddengi" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SOAP-ENV:Body>
+        <ns1:getBalanceResponse>
+            <getBalanceReturn SOAP-ENC:arrayType="ns2:Map[7]" xsi:type="SOAP-ENC:Array">
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:string">5000000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">40030</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date</key>
+                        <value xsi:type="xsd:string">2020-01-06</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_name</key>
+                        <value xsi:type="xsd:string">Сбербанк.</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_name</key>
+                        <value xsi:type="xsd:string">руб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_default</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40030</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:string">59418</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">40032</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date</key>
+                        <value xsi:type="xsd:string">2020-01-06</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_name</key>
+                        <value xsi:type="xsd:string">Кошелёк папы</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_name</key>
+                        <value xsi:type="xsd:string">руб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_default</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40032</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:string">14091400</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">40034</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date</key>
+                        <value xsi:type="xsd:string">2020-01-06</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_name</key>
+                        <value xsi:type="xsd:string">Сейф</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_name</key>
+                        <value xsi:type="xsd:string">руб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_default</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40034</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:string">4197400</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">40040</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date</key>
+                        <value xsi:type="xsd:string">2020-01-06</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_name</key>
+                        <value xsi:type="xsd:string">Газпромбанк</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_name</key>
+                        <value xsi:type="xsd:string">руб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_default</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40040</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:string">198500</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:string">18</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">40040</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date</key>
+                        <value xsi:type="xsd:string">2020-01-06</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_name</key>
+                        <value xsi:type="xsd:string">Газпромбанк</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_name</key>
+                        <value xsi:type="xsd:string">USD</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_default</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">40040</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:string">928100</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">41439</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date</key>
+                        <value xsi:type="xsd:string">2020-01-06</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_name</key>
+                        <value xsi:type="xsd:string">З.п. карта</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_name</key>
+                        <value xsi:type="xsd:string">руб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_default</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">-1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">41439</value>
+                    </item>
+                </item>
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">sum</key>
+                        <value xsi:type="xsd:string">-50000</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_id</key>
+                        <value xsi:type="xsd:string">17</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_id</key>
+                        <value xsi:type="xsd:string">15096427</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">date</key>
+                        <value xsi:type="xsd:string">2020-01-06</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_for_duty</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">is_credit_card</key>
+                        <value xsi:type="xsd:string">f</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">description</key>
+                        <value xsi:nil="true"/>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">place_name</key>
+                        <value xsi:type="xsd:string">Карта1</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_name</key>
+                        <value xsi:type="xsd:string">руб</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">currency_default</key>
+                        <value xsi:type="xsd:string">t</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">parent_id</key>
+                        <value xsi:type="xsd:string">15096424</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">sort</key>
+                        <value xsi:type="xsd:string">15096427</value>
+                    </item>
+                </item>
+            </getBalanceReturn>
+        </ns1:getBalanceResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
