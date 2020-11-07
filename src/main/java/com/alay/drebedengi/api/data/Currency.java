@@ -35,6 +35,6 @@ public class Currency extends ObjectProperties {
     }
 
     public String toHumanReadableString() {
-        return String.format("%s - %d", getCode(), getId());
+        return String.format("%s: %d", getCode(), getId());
     }
 }
