@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Map;
@@ -42,7 +43,7 @@ public abstract class ObjectProperties {
         return DateTimeUtils.stringToDateTime(getProperty(property));
     }
 
-    protected int getPropertyAsInt(String property) {
+    public int getPropertyAsInt(String property) {
         return Integer.parseInt(getProperty(property));
     }
 
@@ -50,7 +51,7 @@ public abstract class ObjectProperties {
         return Long.parseLong(getProperty(property));
     }
 
-    protected BigDecimal getPropertyAsMoney(String property) {
+    public BigDecimal getPropertyAsMoney(String property) {
         return BigDecimal.valueOf(getPropertyAsLong(property)).divide(BigDecimal.valueOf(100));
     }
 }
