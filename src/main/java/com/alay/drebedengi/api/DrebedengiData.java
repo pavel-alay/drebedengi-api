@@ -54,6 +54,10 @@ public class DrebedengiData {
         return accountMap.get(id);
     }
 
+    public String getAccountById(int id) {
+        return getAccount(id).getName();
+    }
+
     public Currency getCurrency(Integer id) {
         if (currencyMap == null) {
             currencyMap = getCurrencies().stream()
@@ -68,6 +72,14 @@ public class DrebedengiData {
                     .collect(Collectors.toMap(Currency::getCode, Currency::getId));
         }
         return currencyIdMap.get(currency);
+    }
+
+    public String getCurrencyById(int id) {
+        return getCurrency(id).getCode();
+    }
+
+    public Integer getCurrencyId(java.util.Currency currency) {
+        return getCurrencyId(currency.getCurrencyCode());
     }
 
     public Category getDebitCategory(Integer id) {
