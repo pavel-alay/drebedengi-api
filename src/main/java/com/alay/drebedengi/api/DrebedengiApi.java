@@ -152,7 +152,7 @@ public class DrebedengiApi {
                                 entry("currency_id", exchange.getSoldCurrencyId()),
                                 entry("operation_type", OperationType.EXCHANGE.getValue()),
                                 entry("operation_date", DateTimeUtils.dateToString(exchange.getDate())),
-                                entry("comment", "[Автоввод] " + exchange.getComment()),
+                                entry("comment", exchange.getComment()),
                                 entry("is_duty", false)
                         ))
                         .add(Map.ofEntries(
@@ -164,7 +164,7 @@ public class DrebedengiApi {
                                 entry("currency_id", exchange.getBoughtCurrencyId()),
                                 entry("operation_type", OperationType.EXCHANGE.getValue()),
                                 entry("operation_date", DateTimeUtils.dateToString(exchange.getDate())),
-                                entry("comment", "[Автоввод] " + exchange.getComment()),
+                                entry("comment", exchange.getComment()),
                                 entry("is_duty", false)
                         )));
 
@@ -184,7 +184,7 @@ public class DrebedengiApi {
                                 entry("currency_id", transfer.getCurrencyId()),
                                 entry("operation_type", OperationType.TRANSFER.getValue()),
                                 entry("operation_date", DateTimeUtils.dateToString(transfer.getDate())),
-                                entry("comment", "[Автоввод] " + transfer.getComment()),
+                                entry("comment", transfer.getComment()),
                                 entry("is_duty", false)
                         ))
                         .add(Map.ofEntries(
@@ -196,7 +196,7 @@ public class DrebedengiApi {
                                 entry("currency_id", transfer.getCurrencyId()),
                                 entry("operation_type", OperationType.TRANSFER.getValue()),
                                 entry("operation_date", DateTimeUtils.dateToString(transfer.getDate())),
-                                entry("comment", "[Автоввод] " + transfer.getComment()),
+                                entry("comment", transfer.getComment()),
                                 entry("is_duty", false)
                         )));
 
@@ -214,7 +214,7 @@ public class DrebedengiApi {
                                 entry("currency_id", debit.getCurrencyId()),
                                 entry("operation_type", OperationType.DEBIT.getValue()),
                                 entry("operation_date", DateTimeUtils.dateToString(debit.getDate())),
-                                entry("comment", "[Автоввод] " + debit.getComment()),
+                                entry("comment", debit.getComment()),
                                 entry("is_duty", false)
                         )));
 
@@ -232,7 +232,7 @@ public class DrebedengiApi {
                                 entry("currency_id", debit.getCurrencyId()),
                                 entry("operation_type", OperationType.CREDIT.getValue()),
                                 entry("operation_date", DateTimeUtils.dateToString(debit.getDate())),
-                                entry("comment", "[Автоввод] " + debit.getComment()),
+                                entry("comment", debit.getComment()),
                                 entry("is_duty", false)
                         )));
 
