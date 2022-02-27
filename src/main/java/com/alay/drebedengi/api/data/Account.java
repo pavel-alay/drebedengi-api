@@ -52,18 +52,27 @@ public class Account extends ObjectProperties {
         return getDescriptionProperty("Card");
     }
 
+    public String getCardCurrency() {
+        return getDescriptionProperty("CardCurrency");
+    }
+
     public String getDefaultIncome() {
         return getDescriptionProperty("Income");
     }
 
+    public String getBank() {
+        return getDescriptionProperty("Bank");
+    }
+
     private String getDescriptionProperty(String property) {
-        String keyValue = Arrays.stream(getDescription().split(","))
+        return Arrays.stream(getDescription().split(","))
                 .filter(s -> s.contains(property))
-                .map(String::trim)
+                .map(s -> {
+                    String[] split = s.trim().split("\\s*:\\s*");
+                    return split.length == 2 ? split[1] : "";
+                })
                 .findFirst()
                 .orElse("");
-        String[] split = keyValue.split(":");
-        return split.length == 2 ? split[1] : "";
     }
 
     public boolean isNotHidden() {
