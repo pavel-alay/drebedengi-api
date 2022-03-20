@@ -116,6 +116,8 @@ public class DrebedengiData {
 
     @SneakyThrows
     public static DrebedengiData load(DrebedengiApi api) {
+        // I use ForkJoinTask here, because all api methods throws IOException,
+        //  so it cannot be used directly with CompletableFeature.
         ForkJoinTask<List<Account>> accounts = ForkJoinPool.commonPool().submit(api::getAccounts);
         ForkJoinTask<List<Currency>> currencies = ForkJoinPool.commonPool().submit(api::getCurrencies);
         ForkJoinTask<List<Category>> categories = ForkJoinPool.commonPool().submit(api::getDebitCategories);
