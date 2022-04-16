@@ -36,6 +36,7 @@ public class DrebedengiData {
     private Map<String, Integer> debitCategoryIdMap;
     private Map<Integer, Category> creditSourceMap;
     private Map<String, Integer> creditSourceIdMap;
+    private Map<String, Integer> tagIdMap;
 
     private DrebedengiData(List<Account> accounts, List<Currency> currencies, List<Category> debitCategories,
                            List<Category> incomeSources, List<Tag> tags) {
@@ -112,6 +113,20 @@ public class DrebedengiData {
                     .collect(Collectors.toMap(c -> c.getName().toLowerCase(), Category::getId));
         }
         return creditSourceIdMap.get(category.toLowerCase());
+    }
+
+    /**
+     * gets tag id by tag name with brackets
+     *
+     * @param tag name of tag with brackets
+     * @return id of tag
+     */
+    public Integer getTagId(String tag) {
+        if (tagIdMap == null) {
+            tagIdMap = getTags().stream()
+                    .collect(Collectors.toMap(c -> String.format("[%s]", c.getName().toLowerCase()), Tag::getId, (a, b) -> a));
+        }
+        return tagIdMap.get(tag.toLowerCase());
     }
 
     @SneakyThrows

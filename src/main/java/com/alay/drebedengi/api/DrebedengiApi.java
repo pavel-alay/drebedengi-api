@@ -339,8 +339,10 @@ public class DrebedengiApi {
                 new GetRecordList()
                         // Data not for report, but for export
                         .withParam("is_report", false)
-                        // Show last 20 record (for each operation type, if not one, see 'r_what')
-                        .withParam("r_period", 8)
+                        // 'period_to', 'period_from' [YYYY-MM-DD] - custom period, if 'r_period' = 0;
+                        .withParam("period_from", DateTimeUtils.dateToString(LocalDate.now().minusDays(14)))
+                        .withParam("period_to", DateTimeUtils.dateToString(LocalDate.now()))
+                        .withParam("r_period", 0)
                         .withParam("r_what", OperationType.ALL.getValue())
                         // Include only selected = 1
                         .withParam("r_is_place", 1)
