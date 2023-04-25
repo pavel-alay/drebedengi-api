@@ -46,6 +46,11 @@ public class GenericRecord extends ObjectProperties {
     }
 
     @ToString.Include
+    public String getGroupId() {
+        return getProperty("group_id");
+    }
+
+    @ToString.Include
     public int getCategoryId() {
         return getPropertyAsInt("budget_object_id");
     }

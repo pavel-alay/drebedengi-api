@@ -14,7 +14,7 @@ import java.util.Map;
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public abstract class ObjectProperties {
-    @Getter(AccessLevel.PROTECTED)
+
     private Map<String, String> params;
 
     protected String getProperty(String property) {
@@ -37,6 +37,10 @@ public abstract class ObjectProperties {
             default:
                 throw new IllegalArgumentException("Can't parse as boolean: " + value);
         }
+    }
+
+    public Map<String, String> getParams() {
+        return params;
     }
 
     public LocalDateTime getPropertyAsDateTime(String property) {

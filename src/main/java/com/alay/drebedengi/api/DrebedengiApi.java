@@ -152,7 +152,7 @@ public class DrebedengiApi {
                         entry("currency_id", exchange.getSoldCurrencyId()),
                         entry("operation_type", OperationType.EXCHANGE.getValue()),
                         entry("operation_date", DateTimeUtils.dateToString(exchange.getDate())),
-                        entry("comment", exchange.getComment()),
+                        entry("comment", escapeSpecialSymbols(exchange.getComment())),
                         entry("is_duty", false)
                 ))
                 .add(Map.ofEntries(
@@ -164,7 +164,7 @@ public class DrebedengiApi {
                         entry("currency_id", exchange.getBoughtCurrencyId()),
                         entry("operation_type", OperationType.EXCHANGE.getValue()),
                         entry("operation_date", DateTimeUtils.dateToString(exchange.getDate())),
-                        entry("comment", exchange.getComment()),
+                        entry("comment", escapeSpecialSymbols(exchange.getComment())),
                         entry("is_duty", false)
                 )));
 
@@ -184,7 +184,7 @@ public class DrebedengiApi {
                         entry("currency_id", transfer.getCurrencyId()),
                         entry("operation_type", OperationType.TRANSFER.getValue()),
                         entry("operation_date", DateTimeUtils.dateToString(transfer.getDate())),
-                        entry("comment", transfer.getComment()),
+                        entry("comment", escapeSpecialSymbols(transfer.getComment())),
                         entry("is_duty", false)
                 ))
                 .add(Map.ofEntries(
@@ -196,7 +196,6 @@ public class DrebedengiApi {
                         entry("currency_id", transfer.getCurrencyId()),
                         entry("operation_type", OperationType.TRANSFER.getValue()),
                         entry("operation_date", DateTimeUtils.dateToString(transfer.getDate())),
-                        entry("comment", transfer.getComment()),
                         entry("is_duty", false)
                 )));
 
@@ -214,7 +213,7 @@ public class DrebedengiApi {
                         entry("currency_id", debit.getCurrencyId()),
                         entry("operation_type", OperationType.DEBIT.getValue()),
                         entry("operation_date", DateTimeUtils.dateToString(debit.getDate())),
-                        entry("comment", debit.getComment()),
+                        entry("comment", escapeSpecialSymbols(debit.getComment())),
                         entry("is_duty", false)
                 )));
 
@@ -232,7 +231,7 @@ public class DrebedengiApi {
                         entry("currency_id", debit.getCurrencyId()),
                         entry("operation_type", OperationType.CREDIT.getValue()),
                         entry("operation_date", DateTimeUtils.dateToString(debit.getDate())),
-                        entry("comment", debit.getComment()),
+                        entry("comment", escapeSpecialSymbols(debit.getComment())),
                         entry("is_duty", false)
                 )));
 
@@ -335,12 +334,13 @@ public class DrebedengiApi {
     }
 
     public List<GenericRecord> fetchRecordsByAccount(int accountId) throws IOException {
+        LocalDate startOfPreviousMonth = LocalDate.now().minusMonths(1).withDayOfMonth(1);
         GetRecordListReturn response = request(
                 new GetRecordList()
                         // Data not for report, but for export
                         .withParam("is_report", false)
                         // 'period_to', 'period_from' [YYYY-MM-DD] - custom period, if 'r_period' = 0;
-                        .withParam("period_from", DateTimeUtils.dateToString(LocalDate.now().minusDays(14)))
+                        .withParam("period_from", DateTimeUtils.dateToString(startOfPreviousMonth))
                         .withParam("period_to", DateTimeUtils.dateToString(LocalDate.now()))
                         .withParam("r_period", 0)
                         .withParam("r_what", OperationType.ALL.getValue())
@@ -374,5 +374,20 @@ public class DrebedengiApi {
     private static int getTimeBasedId() {
         LocalDateTime startOfMonth = LocalDate.now().withDayOfMonth(1).atStartOfDay();
         return (int) ChronoUnit.MILLIS.between(startOfMonth, LocalDateTime.now()) / 10;
+    }
+
+    /**
+     *  < (less-than)       — &#60 or &lt;
+     *  > (greater-than)    — &#62; or  &gt;
+     *  & (ampersand)       — &#38;
+     *  ' (single quote)    — &#39;
+     *  " (double-quote)    — &#34;
+     */
+    private static String escapeSpecialSymbols(String str) {
+        return str.replace("&", "&#38;")
+                .replace("<", "&#60;")
+                .replace(">", "&#62;")
+                .replace("'", "&#39;")
+                .replace("\"", "&#34;");
     }
 }

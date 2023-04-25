@@ -77,11 +77,11 @@ public abstract class BaseResponse <T extends BaseResponse> {
     }
 
     protected static String readTagString(Element element, String tagName) {
-        return readTagString(getFirstChild(element, tagName));
+        return unscape(readTagString(getFirstChild(element, tagName)));
     }
 
     protected String readTagString(String tagName) {
-        return readTagString(getFirstChild(document.getDocumentElement(), tagName));
+        return unscape(readTagString(getFirstChild(document.getDocumentElement(), tagName)));
     }
 
     protected static Integer readTagInteger(Element element) {
@@ -191,4 +191,15 @@ public abstract class BaseResponse <T extends BaseResponse> {
         tf.transform(new DOMSource(document), new StreamResult(out));
         return out.toString();
     }
+
+    // It looks like a bug in the drebedengi API, since string like "H&M" returned from server as double-escaped: "H&amp;amp;M"
+    private static String unscape(String str) {
+        if (str.contains("&")) {
+            return str.replace("&amp;", "&")
+                    .replace("&lt;", "<")
+                    .replace("&gt;", ">");
+        }
+        return str;
+    }
+
 }
